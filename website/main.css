@@ -89,5 +89,19 @@ header div li div picture {
     color: #30343F;
 }
 
+/* footer */
+footer {
+    text-align: center;
+    justify-content: center;
+}
+.socials {
+    display: flex;
+}
+.icon {
+    margin: 10px;
+}
+
+
+
 
 
