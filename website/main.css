@@ -1,0 +1,93 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+
+header, footer {
+    background-color: #FAFAFF;
+}
+
+body {
+    background-color: #30343F
+}
+
+/* navigation */
+/* header {
+    padding: 18px;
+} */
+
+header h1 {
+    font-family: 'Press Start 2P' , cursive;
+}
+header h2{
+    font-size: 27px;
+    color: #2C6E49;
+}
+
+header a {
+    font-family: 'Bebas Neue', cursive;
+    color: #2C6E49!important;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+
+.abtn {
+    font-size: 27pt;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.nav-item {
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("images/icons/play-s.svg");
+  }
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: #44CF6C!important;
+    }
+.navbar .navbar-toggler:focus{
+color: #30343F;
+}
+
+header div li div picture {
+    margin: auto 0 auto 0;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.active {
+    color: #44CF6C!important;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+.nav-link:hover {
+    color: #30343F;
+}
+
+
+
