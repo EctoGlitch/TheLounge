@@ -2,7 +2,7 @@
 body, html {
     height: 100em;
     display: flexbox;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* The hero image */
@@ -48,32 +48,32 @@ body, html {
     top: 2em;
 }
 /*  */
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  
-}
+
 
 /* tablet */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    footer {
-        bottom: -5em;
-    }
     
-    #food {
-        width: 120%;
-    }
+    
     .icon-food a, .icon-drink a{
-        margin: 20em; 
+        margin: 15em; 
+    }
+    .icon-food a {
+        margin-left: 5em;
+        margin-top: 15em;
+    }
+
+    .icon-drink a{
+        margin-left: 20em;
+        margin-bottom: -5em;
     }
     .icon-food a h2, .icon-drink a h2{
         font-size: 50pt;
     }
-    .icon-food {
-        margin-left: 5rem;
+    .hero-text {
+        
     }
+    
 
 }
 
@@ -85,4 +85,8 @@ footer {
         left: 0;
         transform: translate(35%, 0);
       } 
+      .icon-drink a{
+        margin-left: 20em;
+        margin-bottom: -5em;
+    }
 }
