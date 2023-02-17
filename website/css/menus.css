@@ -74,10 +74,14 @@
     picture h2 {
         font-size: 5em;
     }
+    .hero-img {
+        width: 100vw;
+        overflow: none;
+    }
     .hero-text {
         display: flex;
         top: 0;
         left: 0;
-        transform: translate(20%, 20%);
+        transform: translate(5%, 20%);
       } 
 }
