@@ -53,7 +53,8 @@ header a {
 
 
 .abtn {
-    font-size: 27pt;
+    font-size: 20pt;
+    padding: 8px;
 }
 
 .navbar{
@@ -170,7 +171,7 @@ address, .phone {
     }
 
     p {
-        font-size: 20;
+        font-size: 20px;
     }
 
     .socials{
@@ -231,7 +232,7 @@ address, .phone {
         justify-content: space-between;
     }
 
-    p {
+    footer p {
         font-size: 22;
     }
 

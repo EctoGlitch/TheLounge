@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gruppo&family=Press+Start+2P&display=swap" rel="stylesheet">
 
         <link rel='stylesheet' href='css/main.css'>
+        <link rel="stylesheet" href="css/contact.css">
         
        <title>Events</title>
 </head>
@@ -28,8 +29,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end">
                         <li class="nav-item active">
-                            <h2 class="active abtn">Ⓐ</h2>
-                            <a href="index.html" class="active nav-link"><h2 style="color: #44CF6C!important;">Home</h2></a>
+                            <h2 class="hide abtn">Ⓐ</h2>
+                            <a href="index.html" class="active nav-link"><h2>Home</h2></a>
                         </li>
                         <li class="nav-item">
                             <h2 class="hide abtn">Ⓐ</h2>
@@ -38,14 +39,78 @@
                                 <h2 class="hide abtn">Ⓐ</h2>
                                 <a href="events.html" class="nav-link"><h2>Events</h2></a>
                                 <li class="nav-item">
-                                    <h2 class="hide abtn">Ⓐ</h2>
-                                    <a href="contact.html" class="nav-link"><h2>Contact</h2></a>
+                                    <h2 class="active abtn">Ⓐ</h2>
+                                    <a href="contact.html" class="nav-link"><h2 style="color: #44CF6C!important;">Contact</h2></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="sectionWapper">
+                <section>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.5238166025406!2d-75.70143618419429!3d45.41894114448283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0454be1a4f2b%3A0xe980ad49d0a22357!2s153%20Bank%20St%2C%20Ottawa%2C%20ON%20K1P%205N7!5e0!3m2!1sen!2sca!4v1676635249432!5m2!1sen!2sca" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+                <section class="hours">
+                    <h2>Hours</h2>
+                    <p></p>
+                    <h2>Monday</h2>
+                    <p>11AM - 2AM</p>
+                    <h2>Tuesday</h2>
+                    <p>11AM - 2AM</p>
+                    <h2>Wednesday</h2>
+                    <p>11AM - 2AM</p>
+                    <h2>Thurday</h2>
+                    <p>11AM - 2AM</p>
+                    <h2>Friday</h2>
+                    <p>11AM - 2AM</p>
+                    <h2>Saturday</h2>
+                    <p>12PM - 12AM</p>
+                    <h2>Sunday</h2>
+                    <p>12PM - 12AM</p>
+                </section>
+                
+                <section class="form">
+                    <h2>Book</h2>
+                    <form action="">
+                        <div class="names">
+                            <fieldset>
+                                <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                            </fieldset>
+                            <fieldset>
+                                <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                            </fieldset>
+                        </div>
+                        <div class="phone-email">
+                            <fieldset>
+                                <input type="text" id="email" name="email" placeholder="Email" required>
+                            </fieldset>
+                            <fieldset>
+                                <input type="phone" id="phone" name="phone" placeholder="Phone (Optional)">
+                            </fieldset>
+                        </div>
+                        <fieldset>
+                            <div class="datetime">
+                                <input type="date" id="start" name="trip-start" value="2023-02-17" min="2023-02-17" max="2023-12-31" required>
+                                <input type="time" type="time" id="appt" name="appt" min="11:00" max="2:00" required>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <textarea placeholder="Additional Infomation"></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <input id="submit" type="submit" value="Submit">
+                        </fieldset>
+                    </form>
+                </section>
+                
+            </div>
+
+        </div>
+    </main>
     
     <footer>
         <span class="socials">
