@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.hero-img {
+    width: 100vw;
+    overflow: none;
+}
+
 h2 {
     font-family: 'Bebas Neue', cursive;
 }

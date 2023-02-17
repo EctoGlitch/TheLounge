@@ -1,9 +1,3 @@
-.hero-wrapper {
-    width: 100vw;
-    overflow: hidden;
-}
-
-
 
 /* The hero image */
 .hero-image {
@@ -22,7 +16,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    text-shadow: 3px 3px 3px black;
+    color: #FAFAFF;
 }
 
  .icon-food a, .icon-drink a{
@@ -51,7 +46,9 @@
 /* tablet */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    
+    .hero-img {
+        width: 100vw;
+    }
     
     .icon-food a, .icon-drink a{
         margin: 15em; 
@@ -63,7 +60,7 @@
 
     .icon-drink a{
         margin-left: 20em;
-        margin-bottom: -5em;
+        /* margin-bottom: -0.5em; */
     }
     .icon-food a h2, .icon-drink a h2{
         font-size: 50pt;
@@ -74,14 +71,13 @@
 
 /* Desktops and laptops */
 @media only screen and (min-width : 1224px) {
+    picture h2 {
+        font-size: 5em;
+    }
     .hero-text {
         display: flex;
         top: 0;
         left: 0;
-        transform: translate(35%, 0);
+        transform: translate(20%, 20%);
       } 
-      .icon-drink a{
-        margin-left: 20em;
-        margin-bottom: -5em;
-    }
 }
