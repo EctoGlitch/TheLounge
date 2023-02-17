@@ -1,7 +1,7 @@
 
 /* The hero image */
 .hero-image {
-    overflow: hidden;
+    overflow: none;
   
     background-position: center;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@
         font-size: 5em;
     }
     .hero-img {
-        width: 100vw;
+        width: calc(100% - 3px);
         overflow: none;
     }
     .hero-text {
