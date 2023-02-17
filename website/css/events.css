@@ -1,0 +1,123 @@
+main {
+   color: #44CF6C; 
+}
+
+.wrapper {
+    padding: 4em 0 4em 0;
+    margin: auto auto;
+    width: 90%;
+}
+
+table { 
+    width: 100%;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.event {
+    color: #30343F;
+    background-color: #FAFAFF;
+    border-radius: 1em;
+    width: 1.5em;
+    height: 1.5em;
+    margin: auto auto;
+}
+
+.title {
+    margin-top: 2em;
+    font-size: 22px;
+}
+
+section h2, table h2, table p {
+    font-size: 18px;
+}
+
+th {
+    text-align: center;
+    justify-content: center;
+
+    height: 2.5em;
+    width: 2.5em;
+}
+
+th h2, th p {
+    display: block;
+    margin: auto auto;
+}
+
+section {
+    padding: 5rem 0 3rem 0;
+}
+
+.week th {
+    text-align: left;
+}
+
+.white {
+    color: #FAFAFF;
+}
+
+/* tablet */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .wrapper {
+        padding: 3em 0 3em 0;
+        margin: auto auto;
+        width: 80%;
+    }
+
+    .wrapper h2 {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    table h2, table p{ 
+        font-size: 34px;
+    }
+    th {      
+        height: 5.0em;
+        width: 5.0em;
+    }
+}
+
+/* Desktops and laptops */
+@media only screen and (min-width : 1224px) {
+    
+    .info{
+        display: flex;
+    }
+    
+    .month {
+        margin-right: 6em;
+        width: 50%;
+    }
+    .week {
+        width: 40%;
+    }
+
+    .wrapper {
+        padding: 3em 0 3em 0;
+        margin: auto auto;
+        width: 92%;
+    }
+
+    .wrapper h2 {
+        font-size: 50px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    table h2, table p{ 
+        font-size: 50px;
+    }
+
+    th {      
+        height: 6em;
+        width: 6em;
+    }
+    
+}
