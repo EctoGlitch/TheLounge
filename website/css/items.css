@@ -4,11 +4,11 @@
     position: relative;
   }
   
-  .hero-text {
+  main .hero-text {
     position: absolute;
     /* top: 50%;
     left: 50%; */
-    transform: translate(20%, 20%);
+    transform: translate(-100%, -100%);
     color: #FAFAFF;
     text-shadow: 3px 3px 3px black;
   }
@@ -64,6 +64,9 @@
   /* tablet */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    main .hero-text {
+        transform: translate(-70%, -70%);
+      }
     
     .banner h2{
         font-size: 80px;
@@ -89,6 +92,9 @@
   
 /* Desktops and laptops */
 @media only screen and (min-width : 1224px) {
+    main .hero-text {
+        transform: translate(10%, 10%);
+      }
     .banner h2{
         font-size: 120px;
     }

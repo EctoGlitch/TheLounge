@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 100vw; 
 }
 
 .hero-img {
@@ -32,6 +33,8 @@ header, footer {
 body {
     background-color: #30343F;
 }
+
+
 
 /* navigation */
 
@@ -210,7 +213,7 @@ address, .phone {
     }
 
     header h1 {
-        font-size: 56px;
+        font-size: 40px;
         text-align: left;
     }
 
