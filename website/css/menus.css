@@ -1,0 +1,87 @@
+
+/* The hero image */
+.hero-image {
+    overflow: none;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px 3px black;
+    color: #FAFAFF;
+}
+
+ .icon-food a, .icon-drink a{
+    margin: 15em; 
+    display: flex;
+    flex-direction: row;
+    color: #FAFAFF;
+    font-size: 12pt;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.icon-food a > *, .icon-drink a > * {
+    margin: 7px;
+}
+
+/* picture {
+
+} */
+
+.hero-text .icon-food {
+    top: 2em;
+}
+/*  */
+
+
+/* tablet */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .hero-img {
+        width: 100vw;
+    }
+    
+    .icon-food a, .icon-drink a{
+        margin: 15em; 
+    }
+    .icon-food a {
+        margin-left: 5em;
+        margin-top: 15em;
+    }
+
+    .icon-drink a{
+        margin-left: 20em;
+        /* margin-bottom: -0.5em; */
+    }
+    .icon-food a h2, .icon-drink a h2{
+        font-size: 50pt;
+    }
+    
+
+}
+
+/* Desktops and laptops */
+@media only screen and (min-width : 1224px) {
+    picture h2 {
+        font-size: 5em;
+    }
+    .hero-img {
+        width: calc(100% - 3px);
+        overflow: none;
+    }
+    .hero-text {
+        display: flex;
+        top: 0;
+        left: 0;
+        transform: translate(5%, 20%);
+      } 
+}

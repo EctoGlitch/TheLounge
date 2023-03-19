@@ -30,11 +30,6 @@ header, footer {
     background-color: #FAFAFF;
 }
 
-.stripe {
-    background-color: #44CF6C;
-    height: 0.5em;
-}
-
 body {
     background-color: #30343F;
 }
@@ -168,9 +163,6 @@ address, .phone {
         margin: 1em;
     }
     
-    .stripe {
-        height: 1em;
-    }
     
     /* footer */
     
@@ -227,9 +219,6 @@ address, .phone {
 
     .abtn, header h2 {
         font-size: 60px;
-    }
-    .stripe {
-        height: 1.5em;
     }
 
     .nav-item {
